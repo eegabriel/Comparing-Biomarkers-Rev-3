@@ -1,0 +1,117 @@
+\begin{thebibliography}{10}
+
+\bibitem{Huang11}
+Huang Y, Gilbert PB.
+\newblock Comparing biomarkers as principal surrogate endpoints.
+\newblock \emph{Biometrics} 2011;\hspace{0pt}\textbf{67}(4):1442--1451.
+
+\bibitem{Frangakis02}
+Frangakis C, Rubin D.
+\newblock Principal stratification in causal inference.
+\newblock \emph{Biometrics} 2002;\hspace{0pt}\textbf{58}(1):21--29.
+
+\bibitem{Taylor05}
+Taylor JMG, Wang Y, Thibaut R.
+\newblock Counterfactual links to the proportion of treatment effect explained
+  by a surrogate marker.
+\newblock \emph{Biometrics} 2005;\hspace{0pt}\textbf{61}(4):1102--1111.
+
+\bibitem{Follmann06}
+Follmann D.
+\newblock Augmented designs to assess immune response in vaccine trials.
+\newblock \emph{Biometrics} 2006;\hspace{0pt}\textbf{62}(4):1161--1169.
+
+\bibitem{Gilbert08}
+Gilbert P, Hudgens M.
+\newblock Evaluating candidate principal surrogate endpoints.
+\newblock \emph{Biometrics} 2008;\hspace{0pt}\textbf{64}(4):1146--1154.
+
+\bibitem{Wolfson10}
+Wolfson J, Gilbert P.
+\newblock Statistical identifiability and the surrogate endpoint problem, with
+  application to vaccine trials.
+\newblock \emph{Biometrics} 2010;\hspace{0pt}\textbf{66}(4):1153--1161.
+
+\bibitem{Li10}
+Li Y, Taylor JM, Elliott MR.
+\newblock A {B}ayesian approach to surrogacy assessment using principal
+  stratification in clinical trials.
+\newblock \emph{Biometrics} 2010;\hspace{0pt}\textbf{66}(2):523--531.
+
+\bibitem{Huang12}
+Huang Y, Gilbert PB, Wolfson J.
+\newblock Design and estimation for evaluating principal surrogate markers in
+  vaccine trials.
+\newblock \emph{Biometrics} 2013;\hspace{0pt}.
+
+\bibitem{Zigler12}
+Zigler C, Belin T.
+\newblock A bayesian approach to improved estimation of causal effect
+  predictiveness for a principal surrogate endpoint.
+\newblock \emph{Biometrics} 2012;\hspace{0pt}\textbf{68}:922--932.
+
+\bibitem{Gabriel13}
+Gabriel E, Gilbert P.
+\newblock Evaluating principal surrogate endpoints with time-to-event data
+  accounting for time-varying treatment efficacy.
+\newblock \emph{Biostatistics} 2013;\hspace{0pt}\textbf{In Press}.
+
+\bibitem{Huang12b}
+Huang Y, Gilbert PB, Janes H.
+\newblock Assessing treatment-selection markers using a potential outcomes
+  framework.
+\newblock \emph{Biometrics} 2012;\hspace{0pt}\textbf{68}(3):687--96.
+
+\bibitem{Hernan10}
+Hern{\'a}n M.
+\newblock The hazards of hazard ratios.
+\newblock \emph{Epidemiology} 2010;\hspace{0pt}\textbf{21}(1).
+
+\bibitem{Pepe91}
+Pepe M, Fleming T.
+\newblock A nonparametric method for dealing with mismeasured covariate data.
+\newblock \emph{Journal of the American Statistical Association}
+  1991;\hspace{0pt}\textbf{86}(413):108--113.
+
+\bibitem{Heagerty99}
+Heagerty P, Pepe M.
+\newblock Semiparametric estimation of regression quantiles with application to
+  standardizing weight for height and age in us children.
+\newblock \emph{Journal of the Royal Statistical Society: Series C (Applied
+  Statistics)} 1999;\hspace{0pt}\textbf{48}(4):533--551.
+
+\bibitem{Heagerty00}
+Heagerty PJ, Lumley T, Pepe MS.
+\newblock Time-dependent {ROC} curves for censored survival data and a
+  diagnostic marker.
+\newblock \emph{Biometrics} 2000;\hspace{0pt}\textbf{56}(2):337--44.
+
+\bibitem{DCCT}
+DCCT/EDIC~Research G.
+\newblock Intensive diabetes therapy and glomerular filtration rate in type 1
+  diabetes.
+\newblock \emph{The New England Journal of Medicine}
+  2011;\hspace{0pt}\textbf{365}(25):2366--2376.
+
+\bibitem{flemming96}
+Fleming T, Demets D.
+\newblock Surrogate end points in clinical trials: Are we being misled?
+\newblock \emph{Annals of Internal Medicine}
+  1996;\hspace{0pt}\textbf{125}(7):605--613.
+
+\bibitem{Qin07}
+Qin L, Gilbert P, Corey L, McElrath M, Self S.
+\newblock A framework for assessing immunological correlates of protection in
+  vaccine trials.
+\newblock \emph{The Joutnal of Infectious Diseases}
+  2007;\hspace{0pt}\textbf{196}(9):1304--1312.
+
+\bibitem{Miao13}
+Miao X, Li X, Gilbert P, \emph{et~al.}
+\newblock Risk Assessment and Evaluation of Predictions, New York: Springer,
+  volume 210 of \emph{Lecture Notes in Statistics / Lecture Notes in Statistics
+  - Proceedings}, chapter A multiple imputation approach for surrogate marker
+  evaluation in the principal stratification causal inference framework.
+\newblock 2013;\hspace{0pt}.
+
+\end{thebibliography}

@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: Compare_053014_statsmed_revisions.aux
+The style file: statmed.bst
+Database file #1: bib_dissertation.bib
+Warning--can't use both author and editor fields in Miao13
+Warning--empty pages in Miao13
+You've used 19 entries,
+            2401 wiz_defined-function locations,
+            659 strings with 7365 characters,
+and the built_in function-call counts, 17316 in all, are:
+= -- 1982
+> -- 180
+< -- 2
++ -- 90
+- -- 45
+* -- 1174
+:= -- 1610
+add.period$ -- 57
+call.type$ -- 19
+change.case$ -- 18
+chr.to.int$ -- 0
+cite$ -- 21
+duplicate$ -- 2125
+empty$ -- 1462
+format.name$ -- 61
+if$ -- 3720
+int.to.chr$ -- 0
+int.to.str$ -- 19
+missing$ -- 176
+newline$ -- 98
+num.names$ -- 19
+pop$ -- 959
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 106
+stack$ -- 0
+substring$ -- 2582
+swap$ -- 446
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 2
+while$ -- 108
+width$ -- 21
+write$ -- 211
+(There were 2 warnings)
