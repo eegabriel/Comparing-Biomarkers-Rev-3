@@ -51,16 +51,10 @@ Zigler C, Belin T.
 \newblock \emph{Biometrics} 2012;\hspace{0pt}\textbf{68}:922--932.
 
 \bibitem{Gabriel13}
-Gabriel E, Gilbert P.
+Gabriel EE, Gilbert PB.
 \newblock Evaluating principal surrogate endpoints with time-to-event data
   accounting for time-varying treatment efficacy.
-\newblock \emph{Biostatistics} 2013;\hspace{0pt}\textbf{In Press}.
-
-\bibitem{Huang12b}
-Huang Y, Gilbert PB, Janes H.
-\newblock Assessing treatment-selection markers using a potential outcomes
-  framework.
-\newblock \emph{Biometrics} 2012;\hspace{0pt}\textbf{68}(3):687--96.
+\newblock \emph{Biostatistics} 2014;\hspace{0pt}\textbf{15}(2):251--265.
 
 \bibitem{Hernan10}
 Hern{\'a}n M.
@@ -85,6 +79,12 @@ Heagerty PJ, Lumley T, Pepe MS.
 \newblock Time-dependent {ROC} curves for censored survival data and a
   diagnostic marker.
 \newblock \emph{Biometrics} 2000;\hspace{0pt}\textbf{56}(2):337--44.
+
+\bibitem{Huang12b}
+Huang Y, Gilbert PB, Janes H.
+\newblock Assessing treatment-selection markers using a potential outcomes
+  framework.
+\newblock \emph{Biometrics} 2012;\hspace{0pt}\textbf{68}(3):687--96.
 
 \bibitem{DCCT}
 DCCT/EDIC~Research G.
