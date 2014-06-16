@@ -42,7 +42,7 @@ Li Y, Taylor JM, Elliott MR.
 Huang Y, Gilbert PB, Wolfson J.
 \newblock Design and estimation for evaluating principal surrogate markers in
   vaccine trials.
-\newblock \emph{Biometrics} 2013;\hspace{0pt}.
+\newblock \emph{Biometrics} 2013;\hspace{0pt}\textbf{69}(2):301--309.
 
 \bibitem{Zigler12}
 Zigler C, Belin T.
@@ -55,6 +55,12 @@ Gabriel EE, Gilbert PB.
 \newblock Evaluating principal surrogate endpoints with time-to-event data
   accounting for time-varying treatment efficacy.
 \newblock \emph{Biostatistics} 2014;\hspace{0pt}\textbf{15}(2):251--265.
+
+\bibitem{Vanderweele11}
+VanderWeele TJ.
+\newblock Principal stratification--uses and limitations.
+\newblock \emph{The international journal of biostatistics}
+  2011;\hspace{0pt}\textbf{7}(1):1--14.
 
 \bibitem{Hernan10}
 Hern{\'a}n M.

@@ -423,6 +423,12 @@ Title={Lessons for AIDS vaccine development from non-AIDS vaccines}}
   month = {May},
   institution = {Merck Research Laboratories, Upper Gwynedd, Pennsylvania, USA.}}
 
+@article{Huang12,
+author = {Huang, Ying and Gilbert, Peter B. and Wolfson, Julian},
+title = {Design and Estimation for Evaluating Principal Surrogate Markers in Vaccine Trials},journal = {Biometrics},
+DOI = {10.1111/biom.12014},
+year = {2013}}
+
 
 
 @article{Gilbert11,

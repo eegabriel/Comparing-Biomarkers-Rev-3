@@ -1,49 +1,48 @@
-This is BibTeX, Version 0.99d (TeX Live 2013)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: Compare_053014_statsmed_revisions.aux
 The style file: statmed.bst
 Database file #1: bib_dissertation.bib
 Warning--can't use both author and editor fields in Miao13
 Warning--empty pages in Miao13
-You've used 19 entries,
+You've used 20 entries,
             2401 wiz_defined-function locations,
-            661 strings with 7381 characters,
-and the built_in function-call counts, 17440 in all, are:
-= -- 1994
-> -- 180
+            669 strings with 7527 characters,
+and the built_in function-call counts, 18637 in all, are:
+= -- 2138
+> -- 184
 < -- 2
-+ -- 90
-- -- 45
-* -- 1187
-:= -- 1620
-add.period$ -- 57
-call.type$ -- 19
-change.case$ -- 18
++ -- 92
+- -- 46
+* -- 1273
+:= -- 1725
+add.period$ -- 60
+call.type$ -- 20
+change.case$ -- 19
 chr.to.int$ -- 0
-cite$ -- 21
-duplicate$ -- 2134
-empty$ -- 1476
-format.name$ -- 61
-if$ -- 3748
+cite$ -- 22
+duplicate$ -- 2285
+empty$ -- 1579
+format.name$ -- 62
+if$ -- 4009
 int.to.chr$ -- 0
-int.to.str$ -- 19
-missing$ -- 177
-newline$ -- 98
-num.names$ -- 19
-pop$ -- 960
+int.to.str$ -- 20
+missing$ -- 187
+newline$ -- 103
+num.names$ -- 20
+pop$ -- 1021
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 106
+skip$ -- 109
 stack$ -- 0
-substring$ -- 2609
-swap$ -- 454
+substring$ -- 2810
+swap$ -- 487
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 2
-while$ -- 109
-width$ -- 21
-write$ -- 211
+while$ -- 114
+width$ -- 22
+write$ -- 223
 (There were 2 warnings)
