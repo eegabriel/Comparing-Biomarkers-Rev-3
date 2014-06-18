@@ -175,7 +175,7 @@ Here $\{\hat{\rho}_0(t) -\hat{\rho}_1(t)\}$ is a maximum likelihood estimate. Ev
 As well, the same estimator we use at a fixed time point $t$ can be used to estimate the $STG(t)$ versus $t$ curve, for all $t$ greater than $\tau$ and less than the time of trial closure. This curve can be used to investigate time-variation in surrogate quality for a particular surrogate or for comparison. Curves, $STG(t)$ versus $t$, that have noticeable downward slopes may indicate that a candidate surrogate modifies the clinical treatment effect less over time, declining surrogate quality, or that the marginal risk difference is declining. To better understand the context of declining or increasing $STG(t)$ over time, the marginal risk differences over time should be graphed simultaneously. Figure \ref{STG} Panel A depicts a time-independent high quality surrogate and useless surrogate in a trial with declining marginal risk difference, Panel B depicts the same surrogates for a trial with increasing marginal risk difference. 
 
 \subsection{Integrated Standardized Total Gain} \label{ISTG}
-As an alternative to estimating the $STG$ at a fixed time $t$, we can summarize the $STG(t)$ by averaging over the estimated distribution of event times. We define the integrated $STG$ ($ISTG$) as $\int STG(t) \, dF(t)$, where $F(t)$ is the marginal CDF of T. The estimated marginal distribution of event times $\hat{F}(T)$ can be calculated in a number of ways, by integrating over $Z$ and $S$ in the conditional CDF defined by the assumption A5 or Kaplan-Meier estimator. Then the plug-in estimator of the integrated $STG$ is the expectation with respect to that distribution:
+As an alternative to estimating the $STG$ at a fixed time $t$, we can summarize the $STG(t)$ by averaging over the estimated distribution of event times. We define the integrated $STG$ ($ISTG$) as $\int STG(t) \, dF(t)$, where $F(t)$ is the marginal CDF of T. The estimated marginal distribution of event times $\hat{F}(T)$ can be reliably calculated by the Kaplan-Meier estimator. Then the plug-in estimator of the integrated $STG$ is the expectation with respect to that distribution:
 \[
  \widetilde{STG} = \int \widehat{STG}(t) \, d \hat{F}(t). 
 \]
@@ -214,8 +214,8 @@ Bias $FPF(3|c)$& 0.8& 0.497 (0.002) & 0 (0.002) & 0.001 (0.003) & 0 (0.001) & -0
  &0.5& 0.497 (0.002) & -0.001 (0.003) & 0 (0.003) & -0.001 (0.001) & -0.004 (0.009) & -0.012 (0.018) \\ 
 Bias $STG(3)$& 0.8& 0.066 (0.053) & 0.021 (0.086) & -0.043 (0.101) & -0.004 (0.06) & 0.014 (0.064) & 0.047 (0.079) \\
   &0.5 & 0.09 (0.072) & 0.042 (0.103) & -0.016 (0.115) & -0.015 (0.059) & 0.025 (0.077) & 0.043 (0.158) \\ 
-Bias $STG.i$ & 0.8 & 0.065 (0.079)& 0.021 (0.081)& 0.023 (0.051)& 0.003 (0.067) & 0.009 (0.075) & 0.041 (0.074) \\
- & 0.5 & 0.059 (0.099) & 0.052 (0.109) & 0.006 (0.053)& 0.007 (0.076)& 0.076 (0.224) & 0.024 (0.153) \\
+Bias $\widetilde{STG}$ & 0.8 & 0.063 (0.050)& 0.013 (0.077)& 0.019 (0.101)& 0.050 (0.028) & 0.023 (0.093) & 0.032 (0.054) \\
+ & 0.5 & 0.092 (0.073) & 0.041 (0.102) & 0.034 (0.053)& 0.055 (0.028)& 0.022 (0.095) & 0.069 (0.092) \\
 Power H0$_1$& 0.8& 0.05 & 0.94 & 0.99 & 0.99 & 0.99 & 0.99 \\ 
   &0.5& 0.05 & 0.94 & 0.99 & 0.99 & 0.99 & 0.99 \\ 
    \hline
@@ -249,21 +249,21 @@ $STG(3)^{*}=0.51$&(0.5, 0.5)&   &  &  &  & 2.40 \\
 
 \begin{sidewaystable}[ht]
 \begin{center}
-\caption{Power of difference in $\widetilde{STG}$ tests for $t \in (\tau, 3.5)$ years \label{IPow}}
+\caption{Power of difference in $\widetilde{STG}$ tests for $t \in (\tau, \infty)$ years \label{IPow}}
 \begin{tabular}{rrccccc}
   \hline
  & $R_{s_{1,j}w}$ & $\widetilde{STG}=0.10$  & $\widetilde{STG}=0.25$  & $\widetilde{STG}=0.47$& $\widetilde{STG}^*=0.23$  & $\widetilde{STG}^*=0.52$\\
   \hline
-$\widetilde{STG}=0.10$ & 0.8 & 4.8 & 14.4 & 75.6 & 24.6 & 56 \\ 
-&  0.5  & 7.2 & 37.6 & 91.8 & 93.9 & 97.4 \\ 
- $\widetilde{STG}=0.25$ & 0.8 &  & 4 & 63.6 & 47.2 & 37.6 \\ 
-&  0.5 &  & 4 & 78.8 & 80 & 94.8 \\ 
-$\widetilde{STG}=0.47$ & 0.8 &  &  & 6 & 7.5 & 8.8 \\ 
- & 0.5 &  &  & 6 & 2.8 & 16.2 \\ 
-$\widetilde{STG}^{*}=0.23$ & (0.8, 0.8) &  &  &  & 4.6 & 24.2 \\ 
-&  (0.5, 0.5) &  &  &  & 6.3 & 17.2 \\ 
-$\widetilde{STG}^{*}=0.52$ & (0.8, 0.8) &  &  &  &  & 1.6 \\ 
- & (0.5, 0.5) &  &  &  &  & 6 \\ 
+$\widetilde{STG}=0.10$ & 0.8 & 4.8 & 14.4 & 99.6 & 7.8 & 99.2 \\ 
+&  0.5  & 5.7 & 17.8 & 99.8 & 9.2 & 99.4 \\ 
+ $\widetilde{STG}=0.25$ & 0.8 &  & 5.4 & 91.6 & 6.6 & 83.6 \\ 
+&  0.5 &  & 5.5 & 95.2 & 7.1 & 89.8 \\ 
+$\widetilde{STG}=0.47$ & 0.8 &  &  & 4.9 & 82.6 & 8.8 \\ 
+ & 0.5 &  &  & 5.2 & 81.9 & 16.2 \\ 
+$\widetilde{STG}^{*}=0.23$ & (0.8, 0.8) &  &  &  & 4.6 & 75.8 \\ 
+&  (0.5, 0.5) &  &  &  & 6.3 & 78.0 \\ 
+$\widetilde{STG}^{*}=0.52$ & (0.8, 0.8) &  &  &  &  & 5.6 \\ 
+ & (0.5, 0.5) &  &  &  &  & 5.9 \\ 
    \hline
 \multicolumn{7}{p{9in}}{Wald test for comparing two candidate surrogates by testing $\widetilde{STG}_1-\widetilde{STG}_2=0$. *Multivariate candidate PS, **For multivariate surrogate candidates $\rho_{s_{1,j}w}$ stands for $(R_{s_{1,1}w},R_{s_{1,2}w})$.}
 \end{tabular}
@@ -280,9 +280,9 @@ We consider four candidate surrogates: the difference in log-transformed hemoglo
 
 The event of interest is the onset of persistent micro-albuminuria, which is defined as having two consecutive albumin excretion rate measurements $>$ 30 mg/g. No subjects had an event prior to 1 year post-randomization. All subjects had the BIPs measured, which is defined as a linear combination of baseline laboratory measurements and demographic variables. The estimated linear correlation between the joint linear combination BIP and the candidate PS are 0.57 and 0.76 for HBA1C and univariate linear combination HBA1C-EGFR, respectively. All three univariate candidate PS also have respective individual BIPs. The correlation between the individual BIP and their PS are 0.7, for HBA1C, 0.88 for EGFR and 0.76 for the univariate linear combination HBA1C-EGFR. The individual BIPs are used for investigation of each biomarkers' univariate PS value, as well as comparison between the three univariate PS candidates. The joint linear combination BIP is used for the combined model. For all analyses we fit the conditional Weibull model proposed in A5 via the semi-parametric EML method and perform 1000 bootstraps. 
 
-The analysis indicates that HBA1C has clear surrogate value, with P-value for testing H0$_1$ of 0.001. The P-value for testing H0$_1$ for EGFR is 0.19. The univariate linear combination HBA1C-EGFR has a P-value for testing H0$_1$ of 0.055. The multivariate candidate PS of HBA1C combined with the univariate linear combination HBA1C-EGFR has P-value for testing H0$_1$ of 0.018. Based on the tests of H0$_1$ alone there is some evidence that HBA1C and both the combination candidate surrogates are better than EGFR alone. The estimated $\widehat{\widetilde{STG}}$ is 0.2 for HBA1C alone and 0.15 for the univariate linear combination HBA1C-EGFR; their multivariate combination has a $\widehat{\widetilde{STG}}$ of 0.202. Given that there is no evidence to suggest that EGFR alone has any value as a PS, we do not pursue estimation or testing via any of the suggested summary statistics.
+The analysis indicates that HBA1C has clear surrogate value, with P-value for testing H0$_1$ of 0.001. The P-value for testing H0$_1$ for EGFR is 0.19. The univariate linear combination HBA1C-EGFR has a P-value for testing H0$_1$ of 0.055. The multivariate candidate PS of HBA1C combined with the univariate linear combination HBA1C-EGFR has P-value for testing H0$_1$ of 0.018. Based on the tests of H0$_1$ alone there is some evidence that HBA1C and both the combination candidate surrogates are better than EGFR alone. The estimated $\widehat{\widetilde{STG}}$ is 0.31 for HBA1C alone and 0.21 for the univariate linear combination HBA1C-EGFR; their multivariate combination has a $\widehat{\widetilde{STG}}$ of 0.35. Given that there is no evidence to suggest that EGFR alone has any value as a PS, we do not pursue estimation or testing via any of the suggested summary statistics.
 
-The P-value is 0.057 for testing that the estimated $\widetilde{STG}$ difference is zero between HBA1C alone and the univariate linear combination of HBA1C and EGFR. This is evidence that HBA1C alone is superior to the univariate the linear combination of HBA1C-EGFR. As the difference between $\widehat{\widetilde{STG}}$ for HBA1C alone and the multivariate candidate PS is so small, it is not surprising that the P-value for the null that their difference is equal to zero is 0.99. 
+The P-value is 0.058 for testing that the estimated $\widetilde{STG}$ difference is zero between HBA1C alone and the univariate linear combination of HBA1C and EGFR. This is evidence that HBA1C alone is superior to the univariate the linear combination of HBA1C-EGFR. The test for difference between $\widehat{\widetilde{STG}}$ for HBA1C alone and the multivariate candidate PS gives a p-value of 0.18.
 
 Figure \ref{exp} Panel A depicts the $\widehat{CDF}^{7.5}(c)$ versus $c$ curves for all four candidate surrogates, HBA1C, EGFR the univariate linear combination HBA1C-EGFR and the multivariate combination. The EGFR curve is most similar to the marginal risk difference line, supporting the finding that EGFR has little value as a PS. The multivariate combination surrogate which is flatter than the EGFR alone curve is very similar to the HBA1C curve. This provides further evidence that the combination candidate does not improve upon HBA1C alone. As there is no evidence of violation of A6, Figure \ref{exp} Panel B displays the $\widehat{ROC}^{7.5}(q)$ versus $q$ curves for the HBA1C and the two combination candidates. Figure \ref{exp} Panel C depicts the $STG(t)$ versus $t$ for $t$ greater than one year for HBA1C and the two combination candidates. Both Panels B and C support that there is no significant difference between HBA1C alone and the multivariate combination, but that HBA1C alone is significantly better than the univariate linear combination candidate.
 
