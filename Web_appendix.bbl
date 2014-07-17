@@ -1,0 +1,92 @@
+\begin{thebibliography}{14}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Follmann(2006)]{Follmann06}
+D~Follmann.
+\newblock Augmented designs to assess immune response in vaccine trials.
+\newblock \emph{Biometrics}, 62\penalty0 (4):\penalty0 1161--1169, 2006.
+
+\bibitem[Gabriel and Gilbert(2014)]{Gabriel13}
+Erin~E. Gabriel and Peter~B. Gilbert.
+\newblock Evaluating principal surrogate endpoints with time-to-event data
+  accounting for time-varying treatment efficacy.
+\newblock \emph{Biostatistics}, 15\penalty0 (2):\penalty0 251--265, 2014.
+
+\bibitem[Gilbert and Hudgens(2008)]{Gilbert08}
+PB~Gilbert and MG~Hudgens.
+\newblock Evaluating candidate principal surrogate endpoints.
+\newblock \emph{Biometrics}, 64\penalty0 (4):\penalty0 1146--1154, 2008.
+
+\bibitem[Gilbert et~al.(2011)Gilbert, Grove, Gabriel, Huang, Gray, Hammer,
+  Buchbinder, Kublin, Corey, and Self]{Gilbert11}
+PB~Gilbert, D~Grove, E~Gabriel, Y~Huang, G~Gray, SM~Hammer, SP~Buchbinder,
+  J~Kublin, L~Corey, and SG~Self.
+\newblock A sequential phase 2b trial design for evaluating vaccine efficacy
+  and immune correlates for multiple hiv vaccine regimens.
+\newblock \emph{Statistical Communications in Infectious Diseases}, 3\penalty0
+  (1), 2011.
+
+\bibitem[Gu and Pepe(2011)]{Gu10}
+Wen Gu and Margaret Pepe.
+\newblock Measures to summarize and compare the predictive capacity of markers.
+\newblock \emph{The International Journal of Biostatistics}, 5\penalty0
+  (1):\penalty0 1--30, 2011.
+
+\bibitem[Heagerty et~al.(2000)Heagerty, Lumley, and Pepe]{Heagerty00}
+Patrick~J. Heagerty, Thomas Lumley, and Margaret~S. Pepe.
+\newblock Time-dependent {ROC} curves for censored survival data and a
+  diagnostic marker.
+\newblock \emph{Biometrics}, 56\penalty0 (2):\penalty0 337--44, 2000.
+
+\bibitem[Hern{\'a}n(2010)]{Hernan10}
+M.~Hern{\'a}n.
+\newblock The hazards of hazard ratios.
+\newblock \emph{Epidemiology}, 21\penalty0 (1), 2010.
+
+\bibitem[Huang and Gilbert(2011)]{Huang11}
+Ying Huang and Peter~B. Gilbert.
+\newblock Comparing biomarkers as principal surrogate endpoints.
+\newblock \emph{Biometrics}, 67\penalty0 (4):\penalty0 1442--1451, 2011.
+
+\bibitem[Huang et~al.(2012)Huang, Gilbert, and Janes]{Huang12b}
+Ying Huang, Peter~B. Gilbert, and Holly Janes.
+\newblock Assessing treatment-selection markers using a potential outcomes
+  framework.
+\newblock \emph{Biometrics}, 68\penalty0 (3):\penalty0 687--96, 2012.
+
+\bibitem[Moskowitz and Pepe(2004{\natexlab{a}})]{Moskowitz04a}
+Chaya~S. Moskowitz and Margaret~S. Pepe.
+\newblock Quantifying and comparing the accuracy of binary biomarkers when
+  predicting a failure time outcome.
+\newblock \emph{Statistics in Medicine}, 23\penalty0 (10):\penalty0 1555--1570,
+  2004{\natexlab{a}}.
+
+\bibitem[Moskowitz and Pepe(2004{\natexlab{b}})]{Moskowitz04b}
+Chaya~S. Moskowitz and Margaret~S. Pepe.
+\newblock Quantifying and comparing the predictive accuracy of continuous
+  prognostic factors for binary outcomes.
+\newblock \emph{Biostatistics}, 5:\penalty0 113--127, 2004{\natexlab{b}}.
+
+\bibitem[Sachs and Zhou(2013)]{Sachs12}
+Michael~C. Sachs and Xiao-Hua Zhou.
+\newblock Partial summary measures of the predictiveness curve.
+\newblock \emph{Biometrical Journal}, 55\penalty0 (4):\penalty0 589--602, 2013.
+
+\bibitem[Zheng et~al.(2008)Zheng, Cai, Pepe, and Levy]{Zheng08}
+Y~Zheng, T~Cai, MS~Pepe, and WC~Levy.
+\newblock Time-dependent predictive values of prognostic biomarkers with
+  failure time outcome.
+\newblock \emph{Journal of the American Statistical Association}, 103\penalty0
+  (481):\penalty0 362--368, 2008.
+
+\bibitem[Zheng et~al.(2010)Zheng, Cai, Stanford, and Feng]{Zheng10}
+Y~Zheng, T~Cai, JL~Stanford, and Z~Feng.
+\newblock Semiparametric models of time-dependent predictive values of
+  prognostic biomarkers.
+\newblock \emph{Biometrics}, 66\penalty0 (1):\penalty0 50--60, 2010.
+
+\end{thebibliography}
