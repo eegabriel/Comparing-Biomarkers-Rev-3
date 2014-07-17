@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  17 JUL 2014 11:15
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  17 JUL 2014 19:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -800,8 +800,18 @@ Package natbib Warning: Author undefined for citation`Huang11'
 Package natbib Warning: Author undefined for citation`Huang11' 
 (natbib)                on page 9 on input line 165.
 
-[9] [10] [11] [12]
-<dcct-example-figure-2014-7-16.pdf, id=239, 2710.125pt x 1204.5pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [9]
+[10]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+<dcct-example-figure-2014-7-16.pdf, id=237, 2710.125pt x 1204.5pt>
 File: dcct-example-figure-2014-7-16.pdf Graphic file (type pdf)
 
 <use dcct-example-figure-2014-7-16.pdf>
@@ -813,12 +823,7 @@ Package pdftex.def Info: dcct-example-figure-2014-7-16.pdf used on input line 2
 Package natbib Warning: Author undefined for citation`Huang11' 
 (natbib)                on page 13 on input line 276.
 
-[13]
-
-Package natbib Warning: Author undefined for citation`Gabriel13' 
-(natbib)                on page 14 on input line 280.
-
-(./Compare_053014_statsmed_revisions.bbl
+[13] (./Compare_053014_statsmed_revisions.bbl
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no Ž in font ptmr7t!
  [14])
@@ -849,7 +854,7 @@ Here is how much of TeX's memory you used:
  11465 multiletter control sequences out of 15000+600000
  53610 words of font info for 127 fonts, out of 8000000 for 9000
  958 hyphenation exceptions out of 8191
- 43i,15n,40p,2118b,490s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 43i,15n,40p,1999b,490s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2013/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex7.pfb></usr/local
@@ -869,11 +874,11 @@ mf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2013/texmf-dis
 t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on Compare_053014_statsmed_revisions.pdf (19 pages, 611079 bytes
+Output written on Compare_053014_statsmed_revisions.pdf (19 pages, 610674 bytes
 ).
 PDF statistics:
- 378 PDF objects out of 1000 (max. 8388607)
- 331 compressed objects within 4 object streams
+ 375 PDF objects out of 1000 (max. 8388607)
+ 328 compressed objects within 4 object streams
  60 named destinations out of 1000 (max. 500000)
  115 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -142,7 +142,7 @@ pTG(t|B) = pTG(t|d,v)= \frac{1}{v(\rho_0(t)-\rho_1(t)) + (1-d)(1-(\rho_0(t)+\rho
 \]
 The thresholds are quantiles of risk difference $v = R^{t}(c)$ and $d = R^{t}(q)$; if one sets $v=0$ we arrive at the standardized version of equation \ref{orgptg}. As given in \citep{Sachs12}, if we assume that $v<(\rho_0(t)-\rho_1(t))$, $d>(\rho_0(t)-\rho_1(t))$ and there is no individual active harm by treatment, we can define the unstandardized $pTG(t|B)$ in terms of $PPV(t|q)$ and $NPV(t|c)$.
 
-The $pTG(t|B)$ is of interest in the surrogate evaluation framework for comparison of potential PS quality in cases where STG(t) is not useful or is too similar. Unlike the $TG(t)$ and $STG(t)$ which are summaries over the full quantile curve of the CEP, the $pTG(t|B)$ allows one to summarize a surrogate on a particular range of the risk difference. Finding a range on which the potential surrogate is of high-quality is the main goal of specific PS comparison. Thus, the $pTG(t|B)$ could be a more interesting summary statistic than those that consider the entire range of risk difference. Figure 1 of \citep{Sachs12} illustrates a scenario where pTG is beneficial over STG. 
+The $pTG(t|B)$ is of interest in the surrogate evaluation framework for comparison of potential PS quality in cases where STG(t) is not useful or is too similar. Unlike the $TG(t)$ and $STG(t)$ which are summaries over the full quantile curve of the CEP, the $pTG(t|B)$ allows one to summarize a surrogate on a particular range of the risk difference. Finding a range on which the potential surrogate is of high-quality is the main goal of specific PS comparison. Thus, the $pTG(t|B)$ could be a more interesting summary statistic than those that consider the entire range of risk difference.Figure BLAH of \citep{Sachs12} illustrates a scenario where pTG is beneficial over STG. 
 
 Similarly to STG(t), inference on $pTG(t|d,v)$, is most useful for comparison of candidate PS and risk models, rather than for evaluation of specific PS. Confidence intervals will almost never include zero, suggesting that any candidate PS has some partial surrogate value; CI should rather be compared to those of other candidate PS. When sets of CI within the same trial for different candidate PS do not overlap this provides some evidence that one of the PS is better at classifying treatment effect groups, with higher $pTG(t|d,v)$ implying better classification. However, just as with STG(t) P-values for the difference between two $\widehat{pTG}(t|d,v)$ being different than zero are the preferred means of inference. 
 
@@ -183,6 +183,8 @@ Basing the threshold on the quantiles of $S(1)$ standardizes the curves for comp
 
 \section{Appendix B}
 
+
+
 \begin{sidewaystable}[ht]
 \begin{center}
 \caption{Performance of Accuracy Measures Using Univariate BIP for Multivariate PS}
@@ -205,8 +207,6 @@ Bias $\widetilde{STG}$ & 0.8 & -0.037 (0.221)  & -0.003 (0.058) \\
 \end{tabular}
 \end{center}
 \end{sidewaystable}
-
-The large standard deviations of the STG, are caused by poor convergence for ~10\% of the simulations. In each case one or more the risk model parameter estimates are more than 2 standard deviations from the true value. Although this does not cause bias overall, as it is symmetric about the true coefficient values,  it does increase the standard deviation. When using bootstrap standard errors for inference, this will cause lower efficiency in practice. The use of a vector BIP, remedies this problem as can be seen in the main simulations. These convergence issues may also be alleviated by using the EM algorithm as suggested in \citet{Huang11}, even for a univariate BIP.  
 
 
 \begin{sidewaystable}[ht]
