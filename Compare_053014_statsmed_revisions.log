@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  17 JUL 2014 19:52
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.5.30)  18 JUL 2014 15:43
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -460,12 +460,8 @@ LaTeX Info: Redefining \nameref on input line 8.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.3> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 20.
-
-
-Package natbib Warning: Author undefined for citation`Huang11' 
-(natbib)                on page 1 on input line 21.
-
 LaTeX Font Info:    Try loading font information for OMS+ptm on input line 22.
+
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/omsptm.fd
 File: omsptm.fd 
 )
@@ -579,27 +575,6 @@ LaTeX Font Warning: Font shape `U/lasy/m/n' in size <3.75> not available
 (Font)              size <5> substituted on input line 25.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 26.
-
-
-Package natbib Warning: Author undefined for citation`Frangakis02' 
-(natbib)                on page 1 on input line 27.
-
-
-Package natbib Warning: Author undefined for citation`Gabriel13' 
-(natbib)                on page 1 on input line 29.
-
-
-Package natbib Warning: Author undefined for citation`Huang11' 
-(natbib)                on page 1 on input line 29.
-
-
-Package natbib Warning: Author undefined for citation`Gabriel13' 
-(natbib)                on page 1 on input line 29.
-
-
-Package natbib Warning: Author undefined for citation`Huang11' 
-(natbib)                on page 1 on input line 29.
-
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 30.
 LaTeX Font Info:    Calculating math sizes for size <22> on input line 30.
@@ -632,6 +607,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <8> not available
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 30.
 LaTeX Font Info:    Try loading font information for OT1+phv on input line 30.
+
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1phv.fd
 File: ot1phv.fd 2001/06/04 scalable font definitions for OT1/phv.
 )
@@ -646,71 +622,16 @@ Underfull \hbox (badness 10000) has occurred while \output is active
 
 
 Non-PDF special ignored!]
-
-Package natbib Warning: Author undefined for citation`Huang11' 
-(natbib)                on page 2 on input line 39.
-
-
-Package natbib Warning: Author undefined for citation`Gabriel13' 
-(natbib)                on page 2 on input line 39.
-
-
-Package natbib Warning: Author undefined for citation`Gabriel13' 
-(natbib)                on page 2 on input line 39.
-
-
-Package natbib Warning: Author undefined for citation`Frangakis02' 
-(natbib)                on page 2 on input line 43.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [2]
-
-Package natbib Warning: Author undefined for citation`Frangakis02' 
-(natbib)                on page 3 on input line 47.
-
-
-Package natbib Warning: Author undefined for citation`Gilbert08' 
-(natbib)                on page 3 on input line 47.
-
-
-Package natbib Warning: Author undefined for citation`Vanderweele11' 
-(natbib)                on page 3 on input line 47.
-
-
-Package natbib Warning: Author undefined for citation`Gilbert08' 
-(natbib)                on page 3 on input line 49.
-
-
-Package natbib Warning: Author undefined for citation`Gabriel13' 
-(natbib)                on page 3 on input line 49.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [3]
-[4]
+[4] [5]
 Overfull \hbox (17.57664pt too wide) in alignment at lines 91--95
  [][][] []
  []
-
-[5]
-
-Package natbib Warning: Author undefined for citation`Pepe91' 
-(natbib)                on page 6 on input line 97.
-
-
-Package natbib Warning: Author undefined for citation`Huang11' 
-(natbib)                on page 6 on input line 97.
-
-
-Package natbib Warning: Author undefined for citation`Heagerty99' 
-(natbib)                on page 6 on input line 97.
-
-
-Package natbib Warning: Author undefined for citation`Heagerty99' 
-(natbib)                on page 6 on input line 97.
 
 
 Package amsmath Warning: Foreign command \over;
@@ -751,26 +672,9 @@ LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <15.39993> not available
 LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <11> not available
 (Font)              size <10.95> substituted on input line 114.
  [6]
-
-Package natbib Warning: Author undefined for citation`Pepe91' 
-(natbib)                on page 7 on input line 116.
-
-
-Package natbib Warning: Author undefined for citation`Heagerty00' 
-(natbib)                on page 7 on input line 119.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [7]
-
-Package natbib Warning: Author undefined for citation`Huang12b' 
-(natbib)                on page 8 on input line 136.
-
-
-Package natbib Warning: Author undefined for citation`Huang12b' 
-(natbib)                on page 8 on input line 145.
-
 <Figure1.jpeg, id=182, 578.16pt x 578.16pt>
 File: Figure1.jpeg Graphic file (type jpg)
  <use Figure1.jpeg>
@@ -792,15 +696,6 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `math shift' on input line 156.
 
 [8]
-
-Package natbib Warning: Author undefined for citation`Huang11' 
-(natbib)                on page 9 on input line 163.
-
-
-Package natbib Warning: Author undefined for citation`Huang11' 
-(natbib)                on page 9 on input line 165.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
@@ -811,19 +706,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [12]
-<dcct-example-figure-2014-7-16.pdf, id=237, 2710.125pt x 1204.5pt>
+<dcct-example-figure-2014-7-16.pdf, id=239, 2710.125pt x 1204.5pt>
 File: dcct-example-figure-2014-7-16.pdf Graphic file (type pdf)
 
 <use dcct-example-figure-2014-7-16.pdf>
 Package pdftex.def Info: dcct-example-figure-2014-7-16.pdf used on input line 2
 70.
 (pdftex.def)             Requested size: 613.79584pt x 272.80197pt.
-
-
-Package natbib Warning: Author undefined for citation`Huang11' 
-(natbib)                on page 13 on input line 276.
-
-[13] (./Compare_053014_statsmed_revisions.bbl
+ [13]
+(./Compare_053014_statsmed_revisions.bbl
 Missing character: There is no Â in font ptmr7t!
 Missing character: There is no Ž in font ptmr7t!
  [14])
@@ -832,7 +723,12 @@ Package atveryend Info: Empty hook `BeforeClearDocument' on input line 287.
 [17] [18] [19 <./dcct-example-figure-2014-7-16.pdf>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 287.
 
-(./Compare_053014_statsmed_revisions.aux)
+(./Compare_053014_statsmed_revisions.aux
+
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
+
+)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 287.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 287.
 Package rerunfilecheck Info: File `Compare_053014_statsmed_revisions.out' has n
@@ -850,7 +746,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 287.
 Here is how much of TeX's memory you used:
  8235 strings out of 493315
  122916 string characters out of 6137904
- 225419 words of memory out of 5000000
+ 226011 words of memory out of 5000000
  11465 multiletter control sequences out of 15000+600000
  53610 words of font info for 127 fonts, out of 8000000 for 9000
  958 hyphenation exceptions out of 8191
@@ -874,11 +770,11 @@ mf-dist/fonts/type1/urw/helvetic/uhvro8a.pfb></usr/local/texlive/2013/texmf-dis
 t/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/ty
 pe1/urw/times/utmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/ti
 mes/utmri8a.pfb>
-Output written on Compare_053014_statsmed_revisions.pdf (19 pages, 610674 bytes
+Output written on Compare_053014_statsmed_revisions.pdf (19 pages, 611163 bytes
 ).
 PDF statistics:
- 375 PDF objects out of 1000 (max. 8388607)
- 328 compressed objects within 4 object streams
+ 377 PDF objects out of 1000 (max. 8388607)
+ 330 compressed objects within 4 object streams
  60 named destinations out of 1000 (max. 500000)
  115 words of extra memory for PDF output out of 10000 (max. 10000000)
 
